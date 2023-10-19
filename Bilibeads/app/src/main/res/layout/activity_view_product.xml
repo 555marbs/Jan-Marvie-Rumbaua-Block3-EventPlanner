@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/dashboard_iv_logo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/bilibeads_logo" />
+
+    <EditText
+        android:id="@+id/dashboard_et_search"
+        android:layout_width="215dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/dashboard_iv_logo"
+        android:layout_toRightOf="@id/dashboard_iv_logo"
+        android:background="@drawable/edittextshape"
+        android:hint="@string/search_hint"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/dashboard_iv_shoppingcart"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/dashboard_et_search"
+        android:src="@drawable/shoppingcarticon" />
+
+    <ImageView
+        android:id="@+id/dashboard_iv_profile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@id/dashboard_iv_shoppingcart"
+        android:src="@drawable/profileicon" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/dashboard_et_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="5dp"
+        android:elevation="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_viewproduct"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/finalbead1" />
+
+            <TextView
+                android:id="@+id/tv_viewtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="@style/text"
+                android:layout_marginTop="10dp"
+                android:text="Test"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_viewprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                style="@style/text"
+                android:text="Test"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/bt_view_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttonshape"
+        style="@style/Buttons"
+        android:text="Add To Cart"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+</RelativeLayout>
