@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">Bilibeads</string>
-    <string name="button_hint">Customize Beads</string>
-    <string name="search_hint">Search</string>
-    <string name="title_activity_view_product" />
+    <string name="app_name">Bilibeads.</string>
+    <string name="hint_search">Search</string>
 </resources>

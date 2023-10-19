@@ -15,32 +15,32 @@
         android:padding="12dp">
 
         <ImageView
-            android:id="@+id/cardview_id"
+            android:id="@+id/iv_beads"
             android:layout_width="150dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:src="@drawable/finalbead1" />
 
         <TextView
-            android:id="@+id/cardview_title"
+            android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             style="@style/text"
-            android:text="Sample"
+            android:text="Stussy Inspired Bracelet"
             android:textAlignment="center"
             android:textSize="12dp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/cardview_price"
+            android:id="@+id/tv_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             style="@style/text"
-            android:text="99999"
+            android:text="Stussy Inspired Bracelet"
             android:textAlignment="center"
             android:textSize="10dp"
             android:textStyle="bold" />
