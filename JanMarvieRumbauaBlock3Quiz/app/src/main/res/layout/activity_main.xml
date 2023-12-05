@@ -29,4 +29,11 @@
         android:inputType="text"
         android:text="Name" />
 
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time" />
+
 </RelativeLayout>
